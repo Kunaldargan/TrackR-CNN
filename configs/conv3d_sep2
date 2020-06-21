@@ -14,7 +14,7 @@
   "add_masks": true,
 
   # Pretrained model from tensorpack
-  "load_init": /content/TrackR-CNN/pretrained_models/conv3d_sep2/",
+  "load_init": "/content/TrackR-CNN/pretrained_models/conv3d_sep2/conv3d_sep2_on_all_mots",
   # Freeze applies to the whole model, not just our backend, but that's fine since only the backend uses batchnorm
   "freeze_batchnorm": true,
   "max_saves_to_keep": 1,
@@ -29,7 +29,7 @@
   # Dataset options
   "KITTI_segtrack_data_dir": "/content/TrackR-CNN/data/KITTI_MOTS/train/",
   "MOTS_segtrack_data_dir": "/content/TrackR-CNN/data/MOTS_challenge/train/",
-  "optical_flow_path": "/content/data/KITTI_flow_pwc/",
+  "optical_flow_path": "/content/TrackR-CNN/data/KITTI_flow_pwc/",
   "prefer_gt_to_ignore": true,
   "use_ioa_for_ignore": true,
   "use_masks_for_ignore": true,
