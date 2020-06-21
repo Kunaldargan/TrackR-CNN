@@ -4,7 +4,7 @@ from datasets.util.Util import username
 
 NAME = "Mapillary_detection"
 DATA_LIST_PATH = "datasets/Mapillary/"
-DEFAULT_PATH = "/fastwork/" + username() + "/mywork/data/mapillary_quarter/"
+DEFAULT_PATH = "/content/TrackR-CNN/data/mapillary_quarter/"
 N_MAX_DETECTIONS = 300
 ID_DIVISOR = 256
 CLASS_IDS_WITH_INSTANCES = [0, 1, 8, 19, 20, 21, 22, 23, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47,

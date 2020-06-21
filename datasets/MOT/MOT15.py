@@ -6,7 +6,7 @@ from datasets.util.Util import username
 
 NAME = "2DMOT2015"
 NAME_DETECTION = "2DMOT2015_detection"
-DEFAULT_PATH = "/fastwork/" + username() + "/mywork/data/2DMOT2015/"
+DEFAULT_PATH = "/content/TrackR-CNN/data/2DMOT2015/"
 # MOT2015 actually only contains pedestrian annotations; keep the three classes here so that it fits with MOT17
 NUM_CLASSES = 3  # background, car, pedestrian
 N_MAX_DETECTIONS = 100

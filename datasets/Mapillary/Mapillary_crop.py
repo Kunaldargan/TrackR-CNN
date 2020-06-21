@@ -9,7 +9,7 @@ from datasets.Loader import register_dataset
 from datasets.util.BoundingBox import get_bbox_from_segmentation_mask_np
 
 NAME = "mapillary_crop"
-DEFAULT_PATH = "/globalwork/voigtlaender/data/mapillary/"
+DEFAULT_PATH = "/content/TrackR-CNN/data/mapillary/"
 
 
 @register_dataset(NAME, resolution="quarter")

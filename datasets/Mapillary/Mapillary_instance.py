@@ -2,7 +2,7 @@ from datasets.Loader import register_dataset
 from datasets.Mapillary.MapillaryLike_instance import MapillaryLikeInstanceDataset
 from datasets.util.Util import username
 
-DEFAULT_PATH = "/fastwork/" + username() + "/mywork/data/mapillary/"
+DEFAULT_PATH = "/content/TrackR-CNN/data/mapillary/"
 NAME = "mapillary_instance"
 
 

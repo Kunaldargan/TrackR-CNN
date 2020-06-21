@@ -9,7 +9,7 @@ from datasets.Loader import register_dataset
 from datasets.util.Util import username
 
 NAME = "KITTI_segtrack_bbox_regression"
-KITTI_TRACKING_GT_DEFAULT_PATH = "/home/" + username() + "/vision/mask_annotations/KITTI_tracking_annotations/"
+KITTI_TRACKING_GT_DEFAULT_PATH = "/content/TrackR-CNN/vision/mask_annotations/KITTI_tracking_annotations/"
 
 
 @register_dataset(NAME)

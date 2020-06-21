@@ -7,7 +7,7 @@ from datasets.util.Util import username
 # MOT17 is the same sequences as MOT16 with better ground truth annotations
 NAME = "MOT17"
 NAME_DETECTION = "MOT17_detection"
-DEFAULT_PATH = "/fastwork/" + username() + "/mywork/data/MOT17/"
+DEFAULT_PATH = "/content/TrackR-CNN/data/MOT17/"
 NUM_CLASSES = 3  # background, car, pedestrian
 N_MAX_DETECTIONS = 100
 

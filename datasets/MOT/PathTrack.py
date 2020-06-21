@@ -9,7 +9,7 @@ from datasets.util.Util import username
 # MOT17 is the same sequences as MOT16 with better ground truth annotations
 NAME = "PathTrack"
 NAME_DETECTION = "PathTrack_detection"
-DEFAULT_PATH = "/fastwork/" + username() + "/data/pathtrack_release_v1.0/pathtrack_release"
+DEFAULT_PATH = "/content/TrackR-CNN/data/pathtrack_release_v1.0/pathtrack_release"
 # PathTrack actually only contains pedestrian annotations; keep the three classes here so that it fits with MOT17
 NUM_CLASSES = 3  # background, car, pedestrian
 N_MAX_DETECTIONS = 100

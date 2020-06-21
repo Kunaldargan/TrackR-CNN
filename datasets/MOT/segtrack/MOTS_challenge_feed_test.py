@@ -3,7 +3,7 @@ from datasets.Loader import register_dataset
 from datasets.KITTI.segtrack.KITTI_segtrack_feed import KittiSegtrackLikeFeedDataset
 
 NAME = "MOTS_challenge_feed_test"
-DEFAULT_PATH = "/globalwork/voigtlaender/data/MOTS_challenge/test/"
+DEFAULT_PATH = "/content/TrackR-CNN/data/MOTS_challenge/test/"
 
 SEQ_IDS_TRAIN = []
 SEQ_IDS_VAL = ["%04d" % idx for idx in [1, 6, 7, 12]]

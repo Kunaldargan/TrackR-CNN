@@ -83,7 +83,7 @@ class TrackingForwarder(RecurrentDetectionForwarder):
     self.do_tracking = self.config.bool("do_tracking", True)
     self.embeddings = {}
     self.optical_flow_path = self.config.string("optical_flow_path",
-                                                "/work/"+username()+"/data/KITTI_flow_pwc/")
+                                                "/content/TrackR-CNN/data/KITTI_flow_pwc/")
     self.run_tracking_eval = self.config.bool("run_tracking_eval", False)
 
   def forward(self):
